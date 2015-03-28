@@ -13,4 +13,5 @@ for (i = [0: 8])
     translate([0,0,length]) cylinder( r1 = d[i]/2, r2 = d[i]/2, h = l[i], $fn=100);
 }
 
-translate([-support_w/2,0,0]) cube([support_w, sumv( l, 8 ), max(d)/2]);
+translate([-support_w/2,0,0]) cube([support_w, sumv( l, 1 ), max(d)/2]);
+translate([-support_w/2,sumv( l, 6 ),0]) cube([support_w, sumv( l, 8, 6 ), max(d)/2]);
