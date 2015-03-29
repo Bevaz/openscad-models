@@ -3,7 +3,7 @@ $fn = 100;
 mount_size = 30.4 + 0.1;
 
 width = 40;
-thick = 2;
+thick = 2.6;
 deep = 40;
 
 m3_thread = 3.1;
